@@ -1,0 +1,22 @@
+body, html {
+    font-family: Rubik,sans-serif;
+}
+
+.content {
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.smth {
+    border-radius: 15px;
+}
+
+.big_text {
+    color: #104d96;
+}
+
+body {
+    background-color: #E7E9EB;
+}

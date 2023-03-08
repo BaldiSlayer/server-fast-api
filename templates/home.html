@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block head %}
+<link href="/static/css/home.css" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+    <div style="margin-top: 0.5%" class="with-borders">
+        <h2> Контесты </h2>
+    </div>
+
+    {% for item in contests %}
+
+    <div onclick="window.location.href = '/contest/{{ item.id }}';" id="contest-item" class="mx-100 p-1 contest-item-info">
+        <div style="margin-left: auto;  margin-right: auto;" class="row contest-item-info">
+            <h3 class="big_text">{{ item.name }}</h3>
+        </div>
+        <div class="row contest-item-info">
+            <div class="col contest-item-info">
+                <h5> Предмет </h5>
+            </div>
+
+            <div class="col contest-item-info">
+                <h5> Время </h5>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+
+    <script src="/static/js/home.js"></script>
+{% endblock %}

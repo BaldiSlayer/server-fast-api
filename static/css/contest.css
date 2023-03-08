@@ -1,0 +1,19 @@
+div {
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    /*border: solid;*/
+}
+
+.task-item {
+    margin-top: 0;
+}
+
+.with-borders {
+    border-bottom: 1px solid #EBEBEB;
+}
+
+.tasks {
+    background-color: rgba(32, 236, 10, 0.13);
+}

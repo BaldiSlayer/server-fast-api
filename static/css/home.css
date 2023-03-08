@@ -1,0 +1,12 @@
+div {
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    border-radius: 15px;
+    /*border: solid;*/
+}
+
+.contest-item-info {
+     margin-top: 0.5%;
+}
